@@ -38,7 +38,9 @@ const Projects = ({isDarkTheme}) => {
                   <Card.Title>Detecting Contradiction and Entailment in multilingual Text</Card.Title>
                   
                   <Card.Text>
-                  I implemented gesture recognition by extracting hand positions, motion vectors, and key points from preprocessed video frames, engineering a hand gesture recognizer with 97% accuracy using advanced ML techniques. I structured the RASA NLU pipeline, coordinating tokenizer, featurizer, intent classifier, and entity extractor for an AI chatbot. I employed Docker for containerization of machine learning models, ensuring reproducibility and scalability, and orchestrated the deployment of ML workloads with Kubernetes, utilizing features like pod autoscaling, rolling updates, and service discovery to optimize resource utilization and ensure fault tolerance in distributed environments.
+                  Exploited XLM-RoBERTa to classify statements, detecting contradiction, entailment, and irrelevance, in 15 languages.
+ • Accomplished 97% accuracy by incorporating dense layer, NLTK and augmenting XNLI data within the model.
+ • Utilized for the discernment of Fake News, validation of Fact-checking, and nuanced analysis of textual context.
                   </Card.Text>
                   <Card.Link href="https://github.com/Skyhigh2574/Detecting-Contradiction-and-Entailment-in-Multilingual-Text-">Card Link</Card.Link>
                 </Card.Body>
