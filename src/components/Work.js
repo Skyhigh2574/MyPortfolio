@@ -161,7 +161,7 @@ const Work = ({ isDarkTheme }) => {
     <Section isDarkTheme={isDarkTheme} id = "work"> <h1>Work Experience</h1>
     <Container>
       <Sidebar isDarkTheme={isDarkTheme}>
-        <CompanyCard logo={Delta DentalLogo} name="Delta Dental" isSelected={selectedCompany === 'Delta Dental'} onClick={() => setSelectedCompany('Delta Dental')} />
+        <CompanyCard logo={CloudTakersLogo} name="Delta Dental" isSelected={selectedCompany === 'Delta Dental'} onClick={() => setSelectedCompany('Delta Dental')} />
         <CompanyCard logo={PioneerLogo} name="Pioneer Systems" isSelected={selectedCompany === 'Pioneer Systems'} onClick={() => setSelectedCompany('Pioneer Systems')} />
         <CompanyCard logo={ElsnerLogo} name="Elsner" isSelected={selectedCompany === 'Elsner'} onClick={() => setSelectedCompany('Elsner')} />
         <CompanyCard logo={PDPULogo} name="PDPU" isSelected={selectedCompany === 'PDPU'} onClick={() => setSelectedCompany('PDPU')} />
