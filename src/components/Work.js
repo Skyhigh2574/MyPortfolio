@@ -95,14 +95,14 @@ const ExperienceTitle = styled.div`
 const ExperienceDate = styled.div``;
 
 const Work = ({ isDarkTheme }) => {
-  const [selectedCompany, setSelectedCompany] = useState('CloudTakers');
+  const [selectedCompany, setSelectedCompany] = useState('Delta Dental');
 
   const renderContent = (selectedCompany) => {
     switch (selectedCompany) {
-      case 'CloudTakers':
+      case 'Delta Dental':
         return (
           <>
-            <h2 className="font-weight-bold">CloudTakers</h2>
+            <h2 className="font-weight-bold">Delta Dental</h2>
             <div className="my-4 border-left border-primary pl-3">
               <Experience title="Software Developer" date="02/2024 - Present" />
              
@@ -161,7 +161,7 @@ const Work = ({ isDarkTheme }) => {
     <Section isDarkTheme={isDarkTheme} id = "work"> <h1>Work Experience</h1>
     <Container>
       <Sidebar isDarkTheme={isDarkTheme}>
-        <CompanyCard logo={CloudTakersLogo} name="CloudTakers" isSelected={selectedCompany === 'CloudTakers'} onClick={() => setSelectedCompany('CloudTakers')} />
+        <CompanyCard logo={Delta DentalLogo} name="Delta Dental" isSelected={selectedCompany === 'Delta Dental'} onClick={() => setSelectedCompany('Delta Dental')} />
         <CompanyCard logo={PioneerLogo} name="Pioneer Systems" isSelected={selectedCompany === 'Pioneer Systems'} onClick={() => setSelectedCompany('Pioneer Systems')} />
         <CompanyCard logo={ElsnerLogo} name="Elsner" isSelected={selectedCompany === 'Elsner'} onClick={() => setSelectedCompany('Elsner')} />
         <CompanyCard logo={PDPULogo} name="PDPU" isSelected={selectedCompany === 'PDPU'} onClick={() => setSelectedCompany('PDPU')} />
